@@ -6,11 +6,12 @@ import { Card } from '@/components/ui/card'
 
 const members = [
   {
-    name: 'Akshay Jadhave',
+    name: 'Akshay Jadhav',
     role: 'President',
-    description: 'A 4th Dan Black Belt martial artist who leads the organization with vision and discipline, inspiring members to pursue excellence both on and off the mat.',
-    image: '/members/akshay_jadhav_pro.jpg',
-    style: { objectPosition: 'center top' },
+    description: 'Leads the organization with vision and dedication, guiding members toward shared goals and fostering a culture of excellence, discipline, and growth.',
+    image: '/members/akshay_jadhav_pro (2).png',
+    style: { objectFit: 'contain' as const, objectPosition: 'center center' },
+    containerStyle: { backgroundColor: '#FFFFFF' },
   },
   {
     name: 'Randhir Singh',

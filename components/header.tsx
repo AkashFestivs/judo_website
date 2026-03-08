@@ -29,19 +29,20 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-secondary/30 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center py-3 sm:py-2">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 group">
+          <Link href="/" className="flex items-center gap-3 group flex-shrink-0">
             <Image
               src="/judo_logi.png"
               alt="Dynamic Judo Logo"
-              width={40}
-              height={40}
-              className="rounded-lg"
+              width={100}
+              height={100}
+              className="rounded-lg object-contain flex-shrink-0"
+              style={{ width: '72px', height: '72px' }}
             />
-            <div className="hidden sm:block">
-              <h1 className="text-primary font-bold text-sm leading-tight">Dynamic Judo</h1>
-              <p className="text-xs text-secondary">Raigad Association</p>
+            <div className="flex flex-col">
+              <h1 className="text-primary font-extrabold text-base sm:text-lg leading-tight tracking-wide whitespace-nowrap">Dynamic Judo</h1>
+              <p className="text-xs sm:text-sm text-secondary font-medium whitespace-nowrap">Raigad Association</p>
             </div>
           </Link>
 
