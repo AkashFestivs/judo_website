@@ -46,8 +46,8 @@ const members = [
     containerStyle: { backgroundColor: '#FFFFFF' },
   },
   {
-    name: 'Anita Ukey',
-    role: 'Vice President',
+    name: 'Anita Uke',
+    role: 'Member',
     description: 'Plays a pivotal role in shaping organizational strategy, mentoring members, and championing the growth of judo across all age groups.',
     image: '/members/anita_ukey.png',
     style: { objectFit: 'contain' as const, objectPosition: 'center center' },
