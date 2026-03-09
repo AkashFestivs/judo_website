@@ -41,8 +41,8 @@ export default function Header() {
               style={{ width: '72px', height: '72px' }}
             />
             <div className="flex flex-col">
-              <h1 className="text-primary font-extrabold text-base sm:text-lg leading-tight tracking-wide whitespace-nowrap">Dynamic Judo</h1>
-              <p className="text-xs sm:text-sm text-secondary font-medium whitespace-nowrap">Raigad Association</p>
+              <h1 className="text-primary font-extrabold text-base sm:text-lg leading-tight tracking-wide whitespace-nowrap">Dynamic Judo Association</h1>
+              <p className="text-xs sm:text-sm text-secondary font-medium whitespace-nowrap">Raigad</p>
             </div>
           </Link>
 

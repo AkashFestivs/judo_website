@@ -13,6 +13,8 @@ const galleryImages = [
   { src: '/gallery/gallery-6.jpeg', alt: 'Tournament' },
   { src: '/gallery/gallery-7.jpeg', alt: 'Group Photo' },
   { src: '/gallery/gallery-8.jpeg', alt: 'Technique Training' },
+  { src: '/gallery/gallery-9.jpeg', alt: 'Event' },
+  { src: '/gallery/gallery-10.jpeg', alt: 'Event' },
 ]
 
 export default function Gallery() {
